@@ -17,18 +17,18 @@ const Details = () => {
 					<span class='hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100'></span>
 					<div class='p-8 sm:p-16 lg:p-24'>
 						<h2 class='text-2xl font-bold sm:text-3xl'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
-							debitis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Tempore, debitis.
 						</h2>
 						<p class='my-6 text-gray-600'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-							molestiae! Quidem est esse numquam odio deleniti, beatae, magni
-							dolores provident quaerat totam eos, aperiam architecto eius quis
-							quibusdam fugiat dicta.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Aliquid, molestiae! Quidem est esse numquam odio deleniti,
+							beatae, magni dolores provident quaerat totam eos, aperiam
+							architecto eius quis quibusdam fugiat dicta.
 						</p>
 						<Button
 							name='Get in Touch'
-							twclass='bg-indigo-600 hover:bg-transparent hover:text-indigo-600 text-white border border-indigo-600'
+							twclass='bg-indigo-600 hover:bg-transparent hover:text-indigo-600 text-white hover:text-black border border-indigo-600'
 						/>
 					</div>
 				</div>
