@@ -23,6 +23,14 @@ const router = createBrowserRouter([
 				path: '/restaurant',
 				element: <Restaurants />,
 			},
+			{
+				path: '/food',
+				element: <h1>Placeholder</h1>,
+			},
+			{
+				path: '/contact',
+				element: <h1>Placeholder</h1>,
+			},
 		],
 		errorElement: <Error />,
 	},
