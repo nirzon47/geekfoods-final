@@ -10,8 +10,8 @@ const Landing = () => {
 						<span className='text-rose-700'>Forever Food.</span>
 					</h1>
 					<p className='text-xl text-center text-white drop-shadow-[5px_5px_5px_rgba(0,0,0,0.9)] max-w-lg'>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-						illo tenetur fuga ducimus numquam ea!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Nesciunt illo tenetur fuga ducimus numquam ea!
 					</p>
 					<div className='flex justify-center gap-4 mt-12'>
 						<Button

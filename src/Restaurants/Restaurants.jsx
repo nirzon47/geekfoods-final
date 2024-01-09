@@ -29,7 +29,7 @@ const Restaurants = () => {
 	}
 
 	return (
-		<>
+		<div>
 			<div className='flex items-center justify-between mb-4'>
 				<div className='mx-8 mt-16 mb-4'>
 					<input
@@ -66,7 +66,7 @@ const Restaurants = () => {
 					</p>
 				)}
 			</div>
-		</>
+		</div>
 	)
 }
 
