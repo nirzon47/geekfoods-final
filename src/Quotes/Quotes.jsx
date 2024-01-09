@@ -1,5 +1,5 @@
 import QuoteItem from './QuoteItem'
-import quoteList from '../Quotes/quoteList.json'
+import quoteList from './quoteList.json'
 
 const Quotes = () => {
 	return (
