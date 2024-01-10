@@ -3,7 +3,7 @@ import ContactCard from './ContactCard'
 
 const About = () => {
 	return (
-		<div className='flex justify-between gap-12 p-16'>
+		<div className='flex flex-col justify-between gap-12 p-8 lg:p-16 lg:flex-row'>
 			<div className='lg:w-1/2'>
 				<h3 className='mb-8 font-semibold'>Contact Us</h3>
 				<h2 className='mb-12 text-3xl font-bold'>GET IN TOUCH WITH US</h2>
@@ -30,35 +30,35 @@ const About = () => {
 					/>
 				</div>
 			</div>
-			<div className='w-full lg:w-1/2'>
+			<div className='w-full mt-8 lg:mt-0 lg:w-1/2'>
 				<div className='relative p-8 bg-white rounded-lg shadow-lg sm:p-12'>
 					<form>
 						<div className='mb-6'>
 							<input
 								type='text'
 								placeholder='Your Name'
-								className='w-full px-4 py-3 text-sm text-base border rounded outline-none border-zinc-300'
+								className='w-full px-4 py-3 text-sm border rounded outline-none border-zinc-300'
 							/>
 						</div>
 						<div className='mb-6'>
 							<input
 								type='email'
 								placeholder='Your Email'
-								className='w-full px-4 py-3 text-sm text-base border rounded outline-none border-zinc-300'
+								className='w-full px-4 py-3 text-sm border rounded outline-none border-zinc-300'
 							/>
 						</div>
 						<div className='mb-6'>
 							<input
 								type='text'
 								placeholder='Your Phone'
-								className='w-full px-4 py-3 text-sm text-base border rounded outline-none border-zinc-300'
+								className='w-full px-4 py-3 text-sm border rounded outline-none border-zinc-300'
 							/>
 						</div>
 						<div className='mb-6'>
 							<textarea
 								rows='6'
 								placeholder='Your Message'
-								className='w-full px-4 py-3 text-sm text-base border rounded outline-none resize-none border-zinc-300'
+								className='w-full px-4 py-3 text-sm border rounded outline-none resize-none border-zinc-300'
 							></textarea>
 						</div>
 						<div>
