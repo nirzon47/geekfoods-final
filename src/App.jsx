@@ -1,3 +1,4 @@
+import About from './About/About'
 import Error from './Error'
 import Layout from './Layout'
 import Main from './Main/Main'
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: '/contact',
-				element: <h1>Placeholder</h1>,
+				element: <About />,
 			},
 		],
 		errorElement: <Error />,
