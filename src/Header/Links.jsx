@@ -1,14 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const Links = ({ activeTab }) => {
-	const data = [
-		{ label: 'Home', path: '/' },
-		{ label: 'Quote', path: '/quote' },
-		{ label: 'Restaurants', path: '/restaurant' },
-		{ label: 'Food', path: '/food' },
-		{ label: 'Contact', path: '/contact' },
-	]
-
+const Links = ({ activeTab, data }) => {
 	return (
 		<>
 			<ul className='hidden gap-8 font-medium md:flex'>
