@@ -1,5 +1,6 @@
 import About from './About/About'
 import Error from './Error'
+import Food from './Food/Food'
 import Layout from './Layout'
 import Main from './Main/Main'
 import Quotes from './Quotes/Quotes'
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: '/food',
-				element: <h1>Placeholder</h1>,
+				element: <Food />,
 			},
 			{
 				path: '/contact',

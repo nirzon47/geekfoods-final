@@ -41,7 +41,7 @@ const Restaurants = () => {
 					/>
 				</div>
 				<div className='mx-8 mt-16 mb-4'>
-					<label for='minRating' className='mr-2'>
+					<label htmlFor='minRating' className='mr-2'>
 						Minimum Rating:
 					</label>
 					<input
@@ -58,7 +58,10 @@ const Restaurants = () => {
 			<div className='grid grid-cols-1 gap-4 px-2 lg:px-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
 				{restaurants.length > 0 ? (
 					restaurants.map((restaurant) => (
-						<RestaurantCard key={restaurant.id} restaurant={restaurant} />
+						<RestaurantCard
+							key={restaurant._id._id}
+							restaurant={restaurant}
+						/>
 					))
 				) : (
 					<p className='py-12 text-3xl font-bold text-center text-red-600'>

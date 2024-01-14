@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<footer className='flex flex-col items-center justify-center py-16 text-center bg-gray-100'>
 			<svg
-				class='h-8 text-teal-600'
+				className='h-8 text-teal-600'
 				viewBox='0 0 118 24'
 				fill='none'
 				xmlns='http://www.w3.org/2000/svg'
@@ -51,7 +51,7 @@ const Footer = () => {
 					fill='currentColor'
 				></path>
 			</svg>
-			<p class='mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500'>
+			<p className='max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-500'>
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
 				consequuntur amet culpa cum itaque neque.
 			</p>
