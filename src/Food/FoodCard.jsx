@@ -14,7 +14,14 @@ const FoodCard = ({ item }) => {
 			>
 				{item.strMeal}
 			</a>
-			<p className='pl-2 text-sm text-gray-600'>{item.strCategory}</p>
+			<h5 className='pl-2 font-medium text-gray-800'>Ingredients:</h5>
+			<ul className='pl-3 italic text-gray-700 font-sm'>
+				<li>{item.strIngredient1}</li>
+				<li>{item.strIngredient2}</li>
+				<li>{item.strIngredient3}</li>
+				<li>{item.strIngredient4}</li>
+				<li>{item.strIngredient5}</li>
+			</ul>
 		</div>
 	)
 }
