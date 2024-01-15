@@ -37,14 +37,16 @@ const FoodItem = () => {
 			)}
 			{recipe && (
 				<div className='flex flex-col gap-6'>
-					<div className='flex items-center justify-center gap-x-12'>
+					<div className='flex flex-col justify-center lg:items-center lg:flex-row gap-x-12'>
 						<img
 							src={recipe.strMealThumb}
 							alt={recipe.strMeal}
-							className='w-1/4 duration-300 scale-95 rounded-lg hover:scale-100'
+							className='w-full duration-300 scale-95 rounded-lg lg:w-1/4 hover:scale-100'
 						/>
-						<div className='flex flex-col gap-4'>
-							<h2 className='text-3xl font-bold'>{recipe.strMeal}</h2>
+						<div className='flex flex-col gap-4 pl-4 md:pl-8'>
+							<h2 className='text-xl font-bold lg:text-3xl'>
+								{recipe.strMeal}
+							</h2>
 							<p className='italic text-gray-600'>Ingredients:</p>
 							<ul className='flex flex-col pl-8 list-disc'>
 								<li>{recipe.strIngredient1}</li>
