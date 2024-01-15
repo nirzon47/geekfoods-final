@@ -1,6 +1,7 @@
 import About from './About/About'
 import Error from './Error'
 import Food from './Food/Food'
+import FoodItem from './Food/FoodItem'
 import Layout from './Layout'
 import Main from './Main/Main'
 import Quotes from './Quotes/Quotes'
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
 				path: '/food',
 				element: <Food />,
 			},
+			{
+				path: '/food/:id',
+				element: <FoodItem />,
+			},
+
 			{
 				path: '/contact',
 				element: <About />,

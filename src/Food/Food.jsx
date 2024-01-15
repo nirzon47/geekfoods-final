@@ -29,7 +29,7 @@ const Food = () => {
 				`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`
 			)
 			const data = response.data.meals
-			console.log(data)
+
 			setRecipes(data)
 		} catch (error) {
 			console.log(error)

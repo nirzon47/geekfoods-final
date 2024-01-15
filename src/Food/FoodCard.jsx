@@ -1,11 +1,16 @@
+import { useNavigate } from 'react-router-dom'
+
 const FoodCard = ({ item }) => {
+	const navigate = useNavigate()
+
 	return (
 		<div className='flex flex-col duration-300 scale-95 hover:scale-100'>
 			<div className='h-48'>
 				<img
 					src={item.strMealThumb}
 					alt={item.strMeal}
-					className='object-cover h-48 rounded-lg w-96'
+					className='object-cover h-48 rounded-lg cursor-pointer w-96'
+					onClick={() => navigate(`${item.idMeal}`)}
 				/>
 			</div>
 			<a
